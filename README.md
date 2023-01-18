@@ -1,2 +1,7 @@
-# trabalho-ecommerce-DC
-trabalho do ecommerce na digital college, turma Guilherme, Beatriz, Michael, Victor
+# FRONT STORE 06
+
+## Instalação
+
+- `npm install`
+- `npm start`
+
