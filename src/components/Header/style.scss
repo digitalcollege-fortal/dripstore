@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
 body {
 	line-height: 1;
     font-family: 'Inter', sans-serif;
@@ -7,8 +6,10 @@ body {
     font-size: 16px;
 }
 
+.header{
+   
 
-#header-top {
+
     width: 100%;
     height: 125px;
     padding: 0 50px;
@@ -20,7 +21,8 @@ body {
     box-sizing: border-box;/*ajustar o enquadramento*/
 
     background-color: white;
-}
+
+
 
 #header-top__logo img {
     width: 180px;
@@ -114,4 +116,5 @@ button img {
 
     font-size: 12px;
     font-weight: 700;
+}
 }

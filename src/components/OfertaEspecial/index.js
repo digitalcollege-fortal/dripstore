@@ -1,11 +1,11 @@
-import "./style.css";
+import "./style.scss";
 import ofertaEspecial from "../../assets/ofertaEspecial.png";
 
 
 
 export default function OfertaEspecial () {
     return (
-        <section id= "boxProducts">
+        <section className="container" id= "boxProducts">
             
             <section id="boxOferta">
            <div > <img src= {ofertaEspecial} /></div>
@@ -16,7 +16,7 @@ export default function OfertaEspecial () {
                 </div>
                 <h2>Air Jordan edição de colecionador</h2>
                 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</h3>
-                <a href="#">Ver Oferta</a>
+                <button className="veroferta">Ver Oferta</button>
             </div>
            
             </section>
