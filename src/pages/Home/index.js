@@ -1,6 +1,7 @@
 import Menu from "../../components/Menu";
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
+import HighlightCards from "../../components/HighlightCards";
 
 export default function Home() {
     return (
@@ -9,6 +10,7 @@ export default function Home() {
             <Menu active="home"/>
 
             <Banner/>
+            <HighlightCards/>
         </div>
     );
 }
