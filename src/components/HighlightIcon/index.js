@@ -29,7 +29,7 @@ export default function HighlightIcon() {
         {Links.map((Links) => (
           <div className="container-rounded-icons">
             <div className="rounded-icons">
-              <img src={Links.icon} width={64} className="icon-focus" />
+              <img src={Links.icon} width={64} className="icon-focus img-icon" />
             </div>
             <span className="span-icons">{Links.text}</span>
           </div>

@@ -1,11 +1,11 @@
 @use '../../assets/colors';
 
+.container-cards {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .title-cards {
-    position: absolute;
-    width: 283px;
-    height: 38px;
-    left: 250px;
-    top: 913px;
     font-weight: 700;
     font-size: 24px;
     line-height: 38px;
@@ -15,12 +15,7 @@
 
 .content-cards {
     display: flex;
-    align-items: center;
-    position: absolute;
-    width: 450px;
-    left: 250px;
-    top: 971px;
-    margin-bottom: 100px;
+      
 }
 
 .container-highlight-cards {
@@ -28,13 +23,13 @@
     margin-right: 12px;
     margin-top: 20px;
     margin-bottom: 100px;
-    width: 455px;
-    height: 247px;
-    padding-bottom: 35px;
-    left: 100px;
-    top: 971px;
     background: #D8E3F2;
     border-radius: 8px;
+
+    .img {
+        margin-top: 35px;
+        border-radius: 8px;
+    }
 }
 
 .spanCards {
@@ -83,9 +78,4 @@ button {
     letter-spacing: 0.75px;
     color: #C92071;
 
-}
-
-img {
-    margin-top: 35px;
-    border-radius: 8px;
 }
