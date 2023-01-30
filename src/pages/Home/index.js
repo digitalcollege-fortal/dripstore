@@ -3,22 +3,23 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 
 import HighlightCards from "../../components/HighlightCards";
-import Footer from "../../components/Footer";
 import EmAlta from "../../components/EmALta";
 import OfertaEspecial from "../../components/OfertaEspecial";
+import HighlightIcon from "../../components/HighlightIcon";
 
 export default function Home() {
     return (
-        <div>
+        <div >
             <Header/>
             
             <Menu active="home"/>
 
             <Banner/>
 
+            <HighlightIcon/>
+
             <HighlightCards/>
 
-            <Footer/>
 
             <EmAlta/>
             
