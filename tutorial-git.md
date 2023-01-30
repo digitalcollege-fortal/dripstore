@@ -1,5 +1,6 @@
 # Passo 1
 ## Atualizar o branch local
+`git checkout main`
 
 `git pull origin main`
 
@@ -22,3 +23,13 @@
 # Passo 6
 ## Abrir o PullRequest
 Clique no link e confirme o pull request 
+
+"FIM"!!!!
+
+git clone e o link que eu vou pegar no git ou fazer download!
+
+
+
+
+
+
