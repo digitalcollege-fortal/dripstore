@@ -2,6 +2,7 @@ import Menu from "../../components/Menu";
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import HighlightCards from "../../components/HighlightCards";
+import Footer from "../../components/Footer";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
 
             <Banner/>
             <HighlightCards/>
+            <Footer/>
         </div>
     );
 }
