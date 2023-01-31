@@ -15,7 +15,7 @@ const images = [
     title: 'Queima de estoque NIKE',
     description: 'Bla bla bla bla bla',
     actionButton: 'Saiba mais',
-    image: 'https://freepngimg.com/thumb/categories/627.png',
+    image: '../images/White-Sneakers-PNG-Clipart 1.png',
   },
   {
     title: 'Últimas unidades Olympkus ',
