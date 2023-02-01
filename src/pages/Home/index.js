@@ -6,6 +6,7 @@ import HighlightCards from "../../components/HighlightCards";
 import EmAlta from "../../components/EmALta";
 import OfertaEspecial from "../../components/OfertaEspecial";
 import HighlightIcon from "../../components/HighlightIcon";
+import Footer from "../../components/Footer";
 
 export default function Home() {
     return (
@@ -24,6 +25,8 @@ export default function Home() {
             <EmAlta/>
             
             <OfertaEspecial/>
+
+            <Footer/>
 
         </div>
     );
