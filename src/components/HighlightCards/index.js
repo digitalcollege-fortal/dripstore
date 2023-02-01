@@ -7,19 +7,19 @@ export default function HighlightCards() {
         discount: "30% OFF",
         text: "Novo drop Supreme",
         actionButton: "Comprar",
-        image: "/images/T-Shirts-card.svg",
+        image: "/images/star-wars-shirts.png",
     },
     {
         discount: "30% OFF",
         text: "Coleção Adidas",
         actionButton: "Comprar",
-        image: "/images/TennisShoes.svg",
+        image: "/images/tennis.png",
     },
     {
         discount: "30% OFF",
         text: "Novo Beats Bass",
         actionButton: "Comprar",
-        image: "/images/HeadFones-card.svg",
+        image: "/images/headphone-card.png",
     },
   ];
 
