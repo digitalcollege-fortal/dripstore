@@ -17,10 +17,9 @@ export default function Home() {
 
             <Banner/>
 
-            <HighlightIcon/>
-
             <HighlightCards/>
 
+            <HighlightIcon/>
 
             <EmAlta/>
             
