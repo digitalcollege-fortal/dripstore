@@ -4,6 +4,7 @@ import "./styles.scss";
 
 export default function CircleIcon() {
     const [categories, setCategories] = useState([]);
+    const [active, setActive] = useState(0);
 
     useEffect(() => {
         fetch('http://localhost:8000/highlight-icons')
@@ -17,10 +18,17 @@ export default function CircleIcon() {
       <article className="content-highlight-icon">
         <div className="content-icons">
         {categories.map(cat => {
+            
+            let classe = 'circle ';
+
+            if (active === cat.id) {
+                classe += 'active';
+            }
+
             return (
                 <div className="container-rounded-icons">
-                    <div className="rounded-icons">
-                        <img src={cat.icon} width={64} className="icon-focus img-icon" />
+                    <div onClick={() => setActive(cat.id)} className={classe}>
+                        <img src={cat.icon} width={64} className="img-icon" />
                     </div>
                     <span className="span-icons">{cat.text}</span>
                 </div>
