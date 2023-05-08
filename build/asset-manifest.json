@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c67d0426.css",
+    "main.js": "/static/js/main.7f85d7c0.js",
+    "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
+    "static/media/ofertaEspecial.png": "/static/media/ofertaEspecial.dc763e9042b4a99e474c.png",
+    "static/media/tenisEmAlta.png": "/static/media/tenisEmAlta.cc64d919a1648620e960.png",
+    "index.html": "/index.html",
+    "main.c67d0426.css.map": "/static/css/main.c67d0426.css.map",
+    "main.7f85d7c0.js.map": "/static/js/main.7f85d7c0.js.map",
+    "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c67d0426.css",
+    "static/js/main.7f85d7c0.js"
+  ]
+}
